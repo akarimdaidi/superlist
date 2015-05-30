@@ -2,7 +2,7 @@
       ((pony-settings (make-pony-project
                        :python "/Users/ashkankarimdaidi/.virtualenvs/dj_test/bin/python"
                        :pythonpath "/Users/ashkankarimdaidi/workspace/superlist"
-                       :settings "settings")
+                       :settings "settings.testing")
                       )
        )
       )
