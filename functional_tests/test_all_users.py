@@ -15,7 +15,7 @@ class NewVisitorTest(unittest.TestCase):
 		# Edith has heard about cool new online to-do app. She goes
 		# to check out its homepage
 		self.browser.get('http://localhost:8000')
-		self.implicitly_wait(3)
+		self.browser.implicitly_wait(3)
 
 		# She notices the page title and header mention to-do lists
 		self.assertIn('To-Do', self.browser.title)
