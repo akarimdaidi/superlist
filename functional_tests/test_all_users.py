@@ -26,7 +26,7 @@ class NewVisitorTest(unittest.TestCase):
 		# She is invited to enter a to-do item straight away
 		inputbox = self.browser.find_element_by_id('id_new_item')
 		self.assertEqual(
-			inputbox.get_atribute('placeholder'),
+			inputbox.get_attribute('placeholder'),
 			'Enter a to-do item'
 		)
 
@@ -36,7 +36,7 @@ class NewVisitorTest(unittest.TestCase):
 
 		# When she hits enter, the page updates, and now the page lists
 		# "1: Buy peacock feathers" as an item in a to-do list
-		inpoutbox.send_keys(Keys.ENTER)
+		inputbox.send_keys(Keys.ENTER)
 
 		table = self.browser.find_element_by_id('id_list_table')
 		rows = table.find_elements_by_tag_name('tr')
