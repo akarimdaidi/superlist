@@ -7,7 +7,7 @@ from django.test import TestCase
 class NewVisitorTest(LiveServerTestCase):
 
 	def setUp(self):
-		self.browser = webdriver.Firefox()
+		self.browser = webdriver.Chrome()
 
 	def tearDown(self):
 		self.browser.quit()
@@ -62,8 +62,8 @@ class NewVisitorTest(LiveServerTestCase):
 		# Now a new user, Francis comes along to the site
 		## We use a new browser session to make sure that no informatio
 		## of Edish's is coming through form cookies etc #
-		self.browser.exit()
-		self.browser = webdriver.Firefox()
+		self.browser.quit()
+		self.browser = webdriver.Chrome()
 
 		# Francis visits the home page. There is no  sign of Edish's list
 		self.browser.get(self.live_server_url)
@@ -75,7 +75,7 @@ class NewVisitorTest(LiveServerTestCase):
 		# is less interesting than Edish
 		inputbox = self.browser.find_element_by_id('id_new_item')
 		inputbox.send_keys('Buy milk')
-		inputbox.send_keys(Keys.ENDER)
+		inputbox.send_keys(Keys.ENTER)
 
 		# Francis gets his own unique URL
 		francis_list_url = self.browser.current_url
