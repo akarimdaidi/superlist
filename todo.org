@@ -1,7 +1,7 @@
 * project [/]
-* lists [1/5]
+* lists [2/5]
 ** DONE Get FTs to clean up after themselves
 ** TODO Adjust model so that the items are associated with different lists
 ** TODO Add unique URLs for each list
-** TODO Add URL for creating a new list via POST
+** DONE Add URL for creating a new list via POST
 ** TODO Add URLs for adding a new item to an existing list via POST
