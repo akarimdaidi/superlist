@@ -1,7 +1,8 @@
 * project [/]
-* lists [2/5]
+* lists [5/6]
 ** DONE Get FTs to clean up after themselves
-** TODO Adjust model so that the items are associated with different lists
-** TODO Add unique URLs for each list
+** DONE Adjust model so that the items are associated with different lists
+** DONE Add unique URLs for each list
 ** DONE Add URL for creating a new list via POST
-** TODO Add URLs for adding a new item to an existing list via POST
+** DONE Add URLs for adding a new item to an existing list via POST
+** TODO Refactor away some suplication in urls.py
