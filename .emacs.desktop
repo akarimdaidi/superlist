@@ -1,0 +1,118 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Jun  5 00:42:06 2015
+;; Desktop file format version 206
+;; Emacs version 24.4.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (21872 54334 260923 0) (desktop . "206") "ashkankarimdaidi@MacBook" nil nil ((((font-backend mac-ct ns) (fontsize . 0) (font . "-apple-Menlo-medium-normal-normal-*-13-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars) (foreground-color . "#ddd") (background-color . "#2b2b2b") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (fullscreen . fullboth) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "#ddd") (environment) (frameset--id . "AD8E-B3A2-68F5-F777") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (display . "MacBook") (explicit-name) (tool-bar-position . top) (visibility . t) (height . 47) (width . 168) (left . 0) (top . 0)) ((min-height . 8) (min-width . 20) (min-height-ignore . 4) (min-width-ignore . 8) (min-height-safe . 2) (min-width-safe . 4) (min-pixel-height . 128) (min-pixel-width . 160) (min-pixel-height-ignore . 64) (min-pixel-width-ignore . 64) (min-pixel-height-safe . 32) (min-pixel-width-safe . 32)) hc (pixel-width . 1362) (pixel-height . 748) (total-width . 170) (total-height . 47) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 680) (pixel-height . 748) (total-width . 85) (total-height . 47) (normal-height . 1.0) (normal-width . 0.5) (buffer "views.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 682) (start . 336))) (vc (last . t) (pixel-width . 682) (pixel-height . 748) (total-width . 85) (total-height . 47) (normal-height . 1.0) (normal-width . 0.5) (combination-limit) (leaf (pixel-width . 682) (pixel-height . 556) (total-width . 85) (total-height . 35) (normal-height . 0.7352941176470585) (normal-width . 1.0) (buffer "tests.py" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 2523) (start . 2193))) (leaf (last . t) (pixel-width . 682) (pixel-height . 192) (total-width . 85) (total-height . 12) (normal-height . 0.26470588235294146) (normal-width . 1.0) (buffer "tests.py" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars 0 0 nil nil) (vscroll . 0) (dedicated) (point . 2590) (start . 2421))))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("ENTER" "Vi" "urls" "view" "display" "view" "newI" "todo" "the_on" "list_" "only_" "item1" "list" "Item" "all_" "html"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/workspace/superlist/" "~/workspace/superlist/functional_tests/test_all_users.py" "~/workspace/superlist/superlist/urls.py" "~/workspace/superlist/lists/urls.py" "~/workspace/superlist/lists/templates/list.html" "~/workspace/superlist/superlist/urls.py" "~/workspace/superlist/todo.org" "~/workspace/superlist/lists/models.py" "~/workspace/superlist/" "~/workspace/superlist/.emacs.desktop" "~/workspace/superlist/" "~/workspace/superlist/functional_tests/test_all_users.py" "~/workspace/superlist/lists/tests.py" "~/workspace/superlist/lists/templates/home.html" "~/workspace/superlist/lists/views.py" "~/workspace/superlist/" "~/workspace/superlist/."))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/Users/ashkankarimdaidi/workspace/superlist/lists/tests.py"
+  "tests.py"
+  'python-mode
+  '(auto-complete-mode autopair-mode yas-minor-mode highlight-indentation-current-column-mode pony-minor-mode linum-mode)
+  2590
+  '(1682 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/ashkankarimdaidi/workspace/superlist/lists/views.py"
+  "views.py"
+  'python-mode
+  '(auto-complete-mode autopair-mode yas-minor-mode highlight-indentation-current-column-mode pony-minor-mode linum-mode)
+  682
+  '(634 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/ashkankarimdaidi/workspace/superlist/lists/urls.py"
+  "urls.py"
+  'python-mode
+  '(auto-complete-mode autopair-mode yas-minor-mode highlight-indentation-current-column-mode pony-minor-mode linum-mode)
+  284
+  '(284 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/ashkankarimdaidi/workspace/superlist/functional_tests/test_all_users.py"
+  "test_all_users.py"
+  'python-mode
+  '(auto-complete-mode autopair-mode yas-minor-mode highlight-indentation-current-column-mode pony-minor-mode linum-mode)
+  3926
+  '(4045 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/ashkankarimdaidi/workspace/superlist/lists/templates/home.html"
+  "home.html"
+  'html-mode
+  '(autopair-mode yas-minor-mode pony-tpl-minor-mode linum-mode)
+  386
+  '(385 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/ashkankarimdaidi/workspace/superlist/todo.org"
+  "todo.org"
+  'org-mode
+  '(autopair-mode yas-minor-mode linum-mode)
+  285
+  '(354 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/ashkankarimdaidi/workspace/superlist/lists/templates/list.html"
+  "list.html"
+  'html-mode
+  '(autopair-mode yas-minor-mode pony-tpl-minor-mode linum-mode)
+  533
+  '(174 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/Users/ashkankarimdaidi/workspace/superlist/lists/models.py"
+  "models.py"
+  'python-mode
+  '(auto-complete-mode autopair-mode yas-minor-mode highlight-indentation-current-column-mode pony-minor-mode linum-mode)
+  201
+  '(58 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode . t) (buffer-file-coding-system . undecided-unix) (truncate-lines . t)))
+
+(desktop-create-buffer 206
+  "/Users/ashkankarimdaidi/workspace/superlist/.emacs.desktop"
+  ".emacs.desktop"
+  'emacs-lisp-mode
+  '(auto-complete-mode autopair-mode yas-minor-mode linum-mode)
+  3628
+  '(1538 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . emacs-mule-unix)))
+
